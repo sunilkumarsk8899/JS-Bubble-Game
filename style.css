@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(155,184, 155);
+}
+#panel{
+    overflow: hidden;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+}
+#topPanel{
+    padding: 0px 30%;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(38, 88, 38);
+    display: flex;
+}
+.elem{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2 {
+    font-weight: 300;
+
+}
+.box{
+    color: #367c38;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px; 
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+#panelBottom{
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+}
+.bubble{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgb(38, 88, 38);
+    color: #fff;
+    margin: 0px 10px 0px 0px
+}
+.bubble:hover {
+    background: rgb(23, 55, 23);
+    cursor: pointer;
+}
+#panelBottom > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
